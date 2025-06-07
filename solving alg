@@ -1,0 +1,5 @@
+#main-file for algorithm
+
+def create_deck(a):
+  for i in range(a):
+  
