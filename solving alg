@@ -1,5 +1,17 @@
 #main-file for algorithm
 
 def create_deck(a):
-  for i in range(a):
+  deck = []
+  for _ in range(a*4):
+    #2-9
+    for i in range(2,10):
+      deck.append(i)
+    for _ in range(16):
+      deck.append(10)
+    for _ in range(4):
+      deck.append(11)
+  return deck
+
+print(len(create_deck(2)))
+
   
